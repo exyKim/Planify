@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
 import './styles/main.css'
-import Calendar from './pages/Calendar.jsx'
+import Calendar from './pages/cal.jsx'
 
 function Main() {
   const navigate = useNavigate();
