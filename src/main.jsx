@@ -4,8 +4,8 @@ import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
 import './styles/main.css'
 import Calendar from './pages/cal.jsx'
 
-// 🔥 로고 import
 import logo from "./images/logo.svg";
+import mainLogo from "./images/mainLogo.svg"; 
 
 function Main() {
   const navigate = useNavigate();
@@ -17,6 +17,7 @@ function Main() {
   return (
     <div className="main-container">
       <img src={logo} className="logo" />
+      <img src={mainLogo} className="mainplanet" alt="main planet" />
 
       <div className="title-wrapper">
         <h1 className="title">PLANIFY</h1>
