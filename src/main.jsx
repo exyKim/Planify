@@ -17,7 +17,7 @@ function Main() {
   return (
     <div className="main-container">
       <img src={logo} className="logo" />
-      <img src={mainLogo} className="mainplanet" alt="main planet" />
+      <img src={mainLogo} className="mainLogo" alt="mainLogo" />
 
       <div className="title-wrapper">
         <h1 className="title">PLANIFY</h1>
