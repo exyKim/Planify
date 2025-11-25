@@ -1,4 +1,3 @@
-// To do list
 import React from "react";
 import "../styles/TodoList.css";
 

@@ -146,7 +146,7 @@ function Calendar() {
     <div className="calendar-container">
 
       <aside className="sidebar">
-        <img src="/Planify/src/images/logo.svg" alt="Planify Logo" className="logo" />
+        <img src="/logo.svg" alt="Planify Logo" className="logo" />
         <h2 className="reminder-title">Reminder</h2>
           <div className="reminder-list">
             {reminderItems.map((item, index) => (
@@ -164,7 +164,7 @@ function Calendar() {
         <header className="calendar-header">
           <div className="date-navigation">
             <button className="nav-btn" onClick={() => navigateWeek(-1)}>
-              <img src="/Planify/src/images/nav_btn_l.svg" alt="Previous" />
+              <img src="nav_btn_l.svg" alt="Previous" />
             </button>
 
             <h1>
@@ -175,7 +175,7 @@ function Calendar() {
             </h1>
 
             <button className="nav-btn" onClick={() => navigateWeek(1)}>
-              <img src="/Planify/src/images/nav_btn_r.svg" alt="Next" />
+              <img src="nav_btn_r.svg" alt="Next" />
             </button>
           </div>
 
